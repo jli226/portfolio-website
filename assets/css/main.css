@@ -3585,7 +3585,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
     flex-shrink: 0;
     border-radius: 0;
     width: 50%;
-    height: 1024px;
 }
 
 .banner.style1 .image img {
@@ -3605,6 +3604,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
     height: 60%;
     border-radius: 50%;
     object-fit: cover;
+    max-height: 600px;
 }
 
 @media screen and (max-width: 1680px) {
