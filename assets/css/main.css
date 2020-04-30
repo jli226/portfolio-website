@@ -3585,6 +3585,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
     flex-shrink: 0;
     border-radius: 0;
     width: 50%;
+    height: 1024px;
 }
 
 .banner.style1 .image img {
@@ -3663,9 +3664,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
     }
 }
 
-.banner.style1.fullscreen {
+/* .banner.style1.fullscreen {
     min-height: 100vh;
-}
+} */
 
 @media screen and (orientation: portrait) {
     .banner.style1.fullscreen .content {
