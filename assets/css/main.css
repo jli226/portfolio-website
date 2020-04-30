@@ -3604,6 +3604,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
     height: 60%;
     border-radius: 50%;
     object-fit: cover;
+    max-height: 600px;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3663,9 +3664,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
     }
 }
 
-.banner.style1.fullscreen {
+/* .banner.style1.fullscreen {
     min-height: 100vh;
-}
+} */
 
 @media screen and (orientation: portrait) {
     .banner.style1.fullscreen .content {
