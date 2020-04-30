@@ -3604,7 +3604,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
     height: 60%;
     border-radius: 50%;
     object-fit: cover;
-    max-height: 600px;
+    max-height: 800px;
 }
 
 @media screen and (max-width: 1680px) {
@@ -4960,7 +4960,7 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
     -ms-object-position: center;
     object-position: center;
     display: block;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
