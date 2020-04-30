@@ -4963,7 +4963,7 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 0;
 }
 
@@ -5797,9 +5797,9 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
     object-position: right;
 }
 
-.spotlight .image {
+/* .spotlight .image {
     background-color: rgba(0, 0, 0, 0.125);
-}
+} */
 
 .spotlight.invert .image {
     background-color: rgba(255, 255, 255, 0.125);
